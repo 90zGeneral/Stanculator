@@ -54,14 +54,54 @@
 		D50500451E82FB9300C8CF91 /* Stanculator */ = {
 			isa = PBXGroup;
 			children = (
-				D50500461E82FB9300C8CF91 /* AppDelegate.swift */,
-				D50500481E82FB9300C8CF91 /* ViewController.swift */,
-				D505004A1E82FB9300C8CF91 /* Main.storyboard */,
-				D505004D1E82FB9300C8CF91 /* Assets.xcassets */,
-				D505004F1E82FB9300C8CF91 /* LaunchScreen.storyboard */,
-				D50500521E82FB9300C8CF91 /* Info.plist */,
+				D50500591E82FD1200C8CF91 /* Model */,
+				D505005B1E82FD2700C8CF91 /* View */,
+				D505005A1E82FD1C00C8CF91 /* Controller */,
+				D50500581E82FD0800C8CF91 /* Utils */,
+				D505005C1E82FD3000C8CF91 /* Resources */,
 			);
 			path = Stanculator;
+			sourceTree = "<group>";
+		};
+		D50500581E82FD0800C8CF91 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D50500461E82FB9300C8CF91 /* AppDelegate.swift */,
+				D505004D1E82FB9300C8CF91 /* Assets.xcassets */,
+				D50500521E82FB9300C8CF91 /* Info.plist */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D50500591E82FD1200C8CF91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D505005A1E82FD1C00C8CF91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D50500481E82FB9300C8CF91 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D505005B1E82FD2700C8CF91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D505004A1E82FB9300C8CF91 /* Main.storyboard */,
+				D505004F1E82FB9300C8CF91 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D505005C1E82FD3000C8CF91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
